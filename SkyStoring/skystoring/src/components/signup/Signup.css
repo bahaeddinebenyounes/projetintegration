@@ -1,0 +1,48 @@
+/* Signup.css */
+
+.signup-container {
+  background-color: whitesmoke;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center vertically */
+  width: 100%;
+  height: 100%;
+}
+
+.signup-container2 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%; /* Adjusted for responsiveness */
+  max-width: 600px; /* Limit maximum width */
+  height: auto;
+  padding: 20px; /* Adjust padding as needed */
+}
+
+body {
+  background-color: #E3EDF8;
+  margin: 0;
+}
+
+.input {
+}
+
+.input2 {
+  display: flex;
+  justify-content: center; 
+  margin-top: 20px; 
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+  .signup-container2 {
+    width: 90%; /* Adjusted for smaller screens */
+  }
+
+  .input,
+  .input2 {
+    width: 100%; /* Adjusted for smaller screens */
+    
+  }
+}
